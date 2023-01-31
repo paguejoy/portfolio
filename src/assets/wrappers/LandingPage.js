@@ -9,32 +9,38 @@ const Wrapper = styled.main`
     display: flex; 
     align-items: center;
   }
-  /* .page {
+  .page {
     min-height: calc(100vh - var(--nav-height));
     display: grid;
     align-items: center;
     margin-top: -3rem;
-  } */
+  }
   h1 {
     font-weight: 700;
+    text-transform: none
+    color: var(--grey-700);
     span {
-      color: var(--primary-500);
+      color: var(--primary-700);
     }
   }
+  h3 {
+    color: var(--grey-700);
+  }
   p {
-    color: var(--grey-600);
+    color: var(--grey-500);
+    line-height: normal;
   }
   .main-img {
     display: none;
   }
   @media (min-width: 992px) {
-    /* .page {
+    .page {
       grid-template-columns: 1fr 1fr;
       column-gap: 3rem;
-    } */
-    /* .main-img {
+    }
+    .main-img {
       display: block;
-    } */
+    }
   }
 `
 export default Wrapper

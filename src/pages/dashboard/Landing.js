@@ -1,29 +1,30 @@
 // import React from 'react';
-// import Wrapper from '../assets/wrappers/LandingPage';
+import Wrapper from '../../assets/wrappers/LandingPage';
 import { Link } from 'react-router-dom';
-import { Logo } from '../../components';
+import main from '../../assets/images/main.svg'
+import dev from '../../assets/images/dev.svg'
 
 export default function Landing(){
 
   return (
     <div>
-      {/* <Wrapper> */}
+      <Wrapper>
         <div className='container page'>
           {/* info */}
           <div className='info'>
+            <h3>Hello,</h3>
             <h1>
-              Welcome to my Web Portfolio
+              My name is <span>Joy</span>! 
             </h1>
             <p>
-              I'm baby wayfarers hoodie next level taiyaki brooklyn cliche blue
-              bottle single-origin coffee chia. Aesthetic post-ironic venmo,
-              quinoa lo-fi tote bag adaptogen everyday carry meggings +1 brunch
-              narwhal.
+              I am a <span>Software Engineer</span>, <span>an IT Instructor</span> and a <span>Scrum Master</span> 
             </p>
-            <Link to="/projects" className='btn'>Projects</Link>
+            <p>and I build fully working web applications.</p>
+            <Link to="/projects" className='btn'>Go to My Projects</Link>
           </div>
+          <img src={dev} alt='job hunt' className='img main-img' />
         </div>
-      {/* </Wrapper> */}
+      </Wrapper>
     </div>
   );
 };

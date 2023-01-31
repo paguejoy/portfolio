@@ -1,3 +1,4 @@
 
 import Error from './Error'
-export { Error }
+import { Landing } from './dashboard'
+export { Error, Landing }
