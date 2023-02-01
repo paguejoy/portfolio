@@ -18,7 +18,7 @@ function App() {
     <BrowserRouter>
     <AppProvider>
       <Routes>
-        <Route index path='/landing' element={<Landing />} />
+        <Route index path='/' element={<Landing />} />
         <Route path='/' element={<SharedLayout />}>
           <Route path='profile' element={<Profile />} />
           <Route path='projects' element={<Projects />} />

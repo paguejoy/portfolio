@@ -6,7 +6,7 @@ import { useContext } from 'react'
 import { AppContext } from '../../context/appContext'
 
 const SharedLayout = () => {
-  const {toggleSidebar, setToggleSidebar} = useContext(AppContext)
+  const {toggleSidebar, setToggleSidebar, show} = useContext(AppContext)
   // console.log(toggleSidebar)
 
   return (

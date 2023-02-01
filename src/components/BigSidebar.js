@@ -5,14 +5,14 @@ import Logo from '../components/Logo'
 import Wrapper from '../assets/wrappers/BigSidebar'
 
 const BigSidebar = () => {
-  const { toggleSidebar} = useContext(AppContext)
+  const { toggleSidebar } = useContext(AppContext)
   console.log(toggleSidebar)
-
+  
   return (
     <Wrapper>
       <div
         className={
-          toggleSidebar ?  'sidebar-container' : 'sidebar-container show-sidebar'
+          toggleSidebar ? 'sidebar-container show-sidebar' : 'sidebar-container'
         }
       >
         <div className='content'>

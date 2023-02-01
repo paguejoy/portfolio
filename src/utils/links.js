@@ -6,7 +6,7 @@ import { TbCertificate } from 'react-icons/tb'
 
 
 const links = [
-  { id: 1, text: 'Home', path: '/landing', icon: <FaHome /> },
+  { id: 1, text: 'Home', path: '/', icon: <FaHome /> },
   { id: 2, text: 'Profile', path: 'profile', icon: <FaUserCheck /> }, 
   { id: 3, text: 'Experience', path: 'work-experience', icon: <FaCode /> },
   { id: 4, text: 'Certificates', path: 'certificates', icon: <TbCertificate /> },
